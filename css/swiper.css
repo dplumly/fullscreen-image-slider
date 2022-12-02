@@ -424,8 +424,12 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-progressbar {
-    background: rgba(0, 0, 0, .25);
+    background: #61acdf;
     position: absolute
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #c6e8fb !important;
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
