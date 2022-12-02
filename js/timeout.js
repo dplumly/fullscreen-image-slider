@@ -11,4 +11,5 @@ const refresh = () => {
         setTimeout(refresh, 10000);
     }
 }
+console.log(time);
 setTimeout(refresh, 10000);

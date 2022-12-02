@@ -267,7 +267,9 @@
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: 'prev'
+    content: 'prev';
+    padding: 10em;
+    margin: -10em;
 }
 
 .swiper-button-next,
@@ -278,7 +280,9 @@
 
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-    content: 'next'
+    content: 'next';
+    padding: 10em;
+    margin: -10em;
 }
 
 .swiper-button-lock {
